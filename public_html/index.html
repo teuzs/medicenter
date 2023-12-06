@@ -5,6 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+   
+   
+<script type="text/javascript">
+    window.onload = function () {
+        document.querySelector(".menumobile").addEventListener("click", function () {
+            if (document.querySelector(".menu nav ul").style.display === 'flex') {
+                document.querySelector(".menu nav ul").style.display = 'none';
+            } else {
+                document.querySelector(".menu nav ul").style.display = 'flex';
+            }
+        });
+    };
+</script>
+   
     <title>MediCenter</title>
 </head>
 
@@ -16,6 +30,17 @@
             </div>
             <div class="menu">
                 <nav>
+                    <div class="menumobile">
+                        <div class="mm_line">
+
+                        </div>
+                        <div class="mm_line">
+
+                        </div>
+                        <div class="mm_line">
+
+                        </div>
+                    </div>
                     <ul>
                         <li class="active"><a href="Home">Home</a></li>
                         <li><a href="Home">Home</a></li>
@@ -224,6 +249,105 @@
             </aside>
         </div>
     </section>
+
+    <footer>
+        <divclass="container flexColumn">
+            <div class="footer_menu">
+                <div class="fm_1">
+                    <a href="">
+                        <div class="fm_title">
+                            Health Insurance
+                        </div> <br>
+                        <div class="fm_text">
+                            Here in medicenter we have individual ->
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_2">
+                    <a href="">
+                        <div class="fm_title">
+                            Medical Records
+                        </div> <br>
+                        <div class="fm_text">
+                            Here in medicenter we have individual ->
+                        </div>
+                    </a>
+                </div>
+                <div class="fm_3">
+                    <a href="">
+                        <div class="fm_title">
+                            Online Bill Pay
+                        </div> <br>
+                        <div class="fm_text">
+                            Here in medicenter we have individual ->
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <!-- Area de conteudo footerItens -->
+    <div class="footer_area">
+        <div class="footer_areaitem">
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">MediCenter Clinic</div>
+                    <div class="widget_title_bar"></div>  
+                </div>  
+                <div class="widget_body">
+                  *-*-*-*-
+                </div>
+            </div>
+        </div>
+       
+        <div class="footer_areaitem">
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">Last Posts</div>
+                    <div class="widget_title_bar"></div>  
+                </div>  
+                <div class="widget_body">
+                  *-*-*-*-
+                </div>
+            </div>
+        </div>
+       
+        <div class="footer_areaitem">
+            <div class="widget">
+                <div class="widget_title">
+                    <div class="widget_title_text">Last Tweets</div>
+                    <div class="widget_title_bar"></div>  
+                </div>  
+                <div class="widget_body">
+                  *-*-*-*-
+                </div>
+            </div>
+        </div>
+    </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_copy">
+            &copy; Copiright - Todos os direitos reservados
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 
 </html>
