@@ -3,6 +3,7 @@
     --secundary--color:#33b7ce;
     font-family: Arial;
 }
+
 body {
     margin: 0px;
     padding: 0px;
@@ -260,4 +261,117 @@ article .news_resume{
 }
 .widget_contact_text,img{
     height: 25px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    display: flex;
+    justify-content: center;
+}
+.footer_menu {
+    display: flex;
+}
+.fm_1, .fm_2, .fm_3 {
+    flex: 1;
+    color: #fff;
+}
+.fm_1 {
+    background-color: #39aae1;
+}
+.fm_2 {
+    background-color: #0079c7;
+}
+.fm_3 {
+    background-color: #2b4c99;
+}
+.footer_menu a {
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: #fff;
+}
+
+footer .widget_title_text {
+    color: #FFFFFF;
+}
+
+.footer_copy {
+    border-top: 1px solid #2c2c2c;
+    height: 40px;
+    line-height: 40px;
+    color: #5c5c5c;
+    font-size: 12px;
+    margin-top: 30px;
+}
+
+@media (max-width: 600px) {
+    .banner_headline {
+        padding: 20px;
+    }
+    
+    .banner_headline h1 {
+        font-size: 51px;
+    }
+    .banner_headline h2 {
+        font-size: 17px;
+    }
+
+    .banner_options {
+        height: auto;
+        flex-direction: column;
+    }
+    .container {
+        flex-direction: column;
+        
+    }
+
+    .menumobile {
+        display: none;
+        width: 40px;
+        height: 40px;
+        
+        margin-top: 40px;
+        margin-bottom: 40px;
+        margin-right: 20px;
+    }
+
+    .mm_line {
+        height: 3px;
+        background-color: #39aae1;
+
+    }
+
+    #geral section {
+        padding: 20px;
+    }
+    #geral aside {
+        padding: 20px;
+    }
+    .footer_menu {
+        flex-direction: column;
+    }
+    header .container {
+        flex-direction: row;
+    }
+    nav ul {
+        flex-direction: column;
+        display: none;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        background-color: #FFFFFF;
+    
+    }
+    header {
+        height: auto;
+    }
+    .logo {
+        padding-left: 20px;
+    }
+
+    .menumobile {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }
